@@ -52,6 +52,10 @@ section#feature ul li{
     list-style: none;
     line-height: 2.0em;
 }
+section#feature ul{
+    margin: 0;
+    padding: 0;
+}
 
 section#title-bar{
     padding: 0;
@@ -84,6 +88,9 @@ footer a{
 }
 footer p{
     float: right;
+}
+.col-md-4{
+    padding: 20px;
 }
 
 /*Media Queries*/
@@ -132,5 +139,16 @@ footer p{
         width: 60%;
         margin: 0 auto 30px auto;
         display: block;
+    }
+
+    section#feature ul li{
+        font-size: 15px;
+    }
+
+    footer p{
+        float: none;
+        text-align: center;
+        padding-top: 20px;
+
     }
 }
